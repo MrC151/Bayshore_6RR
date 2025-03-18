@@ -2,7 +2,7 @@
   "name": "bayshore",
   "version": "1.0.0",
   "description": "Wangan Midnight Maximum Tune 6 server implementation",
-  "main": "dist/index.js",
+  "main": "dist/index.js"
   "repository": "https://github.com/ProjectAsakura/Bayshore",
   "author": "Luna and Project Asakura",
   "license": "MIT",
@@ -10,8 +10,6 @@
   "scripts": {
     "dev": "tsc && node dist",
     "build_protos": "tsc -p ./tsconfig.proto.json"
-    "start": "node dist/index.js"
-
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
