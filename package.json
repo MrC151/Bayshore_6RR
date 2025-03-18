@@ -18,7 +18,9 @@
     "protobufjs-cli": "^1.0.0",
     "ts-node": "^10.8.2",
     "typescript": "^5.5.4",
-    "@types/protobufjs": "^6.9.0"
+    "@types/protobufjs": "^6.9.0",
+    "long": "^5.2.0",
+    "protobufjs": "^7.0.0",
   },
   "dependencies": {
     "@prisma/client": "^4.0.0",
@@ -36,7 +38,6 @@
     "protobufjs": "^7.0.0",
     "rate-limiter-flexible": "^5.0.3",
     "ts-proto": "^1.117.0",
-    "protobufjs": "^7.0.0",
     "long": "^5.2.0"
   }
 }
