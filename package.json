@@ -19,7 +19,6 @@
     "ts-node": "^10.8.2",
     "typescript": "^5.5.4",
     "@types/protobufjs": "^6.9.0"  // if you need type definitions for protobufjs
-
   },
   "dependencies": {
     "@prisma/client": "^4.0.0",
