@@ -9,16 +9,17 @@
   "private": false,
   "scripts": {
     "dev": "tsc && node dist",
-    "build_protos": "tsc -p ./tsconfig.proto.json"
+    "build_protos": "tsc -p ./tsconfig.proto.json",
+    "build": "tsc -p ./tsconfig.json"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^18.0.3",
-    "prisma": "^4.0.0",
+    "@types/protobufjs": "^6.9.0",
+    "prisma": "^6.8.2",
     "protobufjs-cli": "^1.0.0",
     "ts-node": "^10.8.2",
-    "typescript": "^5.5.4",
-    "@types/protobufjs": "^6.9.0"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "@prisma/client": "^4.0.0",
